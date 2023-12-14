@@ -4,14 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Beauty Zone</title>
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Poppins:wght@300;400;600;900&family=Roboto:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Style  -->
+    <!-- Styles -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -59,10 +52,11 @@
             Наша косметологічна клініка пропонує вам професійні послуги з
             догляду за шкірою обличчя та тіла.
           </p>
-          <p>
-            B Beauty Zone ми гарантуємо найвищі стандарти якості та приємний
-            сервіс. Наші косметологічні процедури та препарати допоможуть вам
-            підтримувати свою красу та молодість. З нами краса назавжди!
+          <p class="about-us-text">
+            B <span class="brand">Beauty Zone</span> ми гарантуємо найвищі
+            стандарти якості та приємний сервіс. Наші косметологічні процедури
+            та препарати допоможуть вам підтримувати свою красу та молодість. З
+            нами краса назавжди!
           </p>
           <img
             src="./images/woman's-face-before.jpg"
@@ -79,19 +73,19 @@
           Чому люди <span class="accent">обирають нас</span>
         </h2>
         <article>
-          <p>
+          <p class="why-us-text">
             Всі наші косметологи мають вищу медичну освіту та стаж роботи від 5
             років
           </p>
         </article>
         <article>
-          <p>
+          <p class="why-us-text">
             Використовуємо тільки професійне обладнання та косметику, перевірену
             часом
           </p>
         </article>
         <article>
-          <p>
+          <p class="why-us-text">
             Наша мета - підкреслити переваги та приховати недоліки, а не
             переробити
           </p>
@@ -103,24 +97,30 @@
             Наші <span class="accent">процедури</span>
           </h2>
         </article>
-        <img
-          src="./images/procedure-with-cream.jpg"
-          alt="жінці роблять процедуру з кремом на лиці"
-        />
-        <p>Маски для обличчя</p>
-        <img
-          src="./images/procedure.jpg"
-          alt="жінці роблять процедуру зі шприцем на лиці"
-        />
-        <img
-          src="./images/relaxing-facial-treatment.jpg"
-          alt="жінці роблять розслаблюючу процедуру лиця "
-        />
+        <article>
+          <img src="./images/face-masks.jpg" alt="Маски для обличчя" />
+          <p class="our-procedures-text">Маски для обличчя</p>
+        </article>
+        <article>
+          <img
+            src="./images/Injections-for-the-face.jpg"
+            alt="Ін'єкції для обличчя"
+          />
+          <p class="our-procedures-text">Ін'єкції для обличчя</p>
+        </article>
+        <article>
+          <img src="./images/Facial-cleansing.jpg" alt="Очищення обличчя" />
+          <p class="our-procedures-text">Очищення обличчя</p>
+        </article>
       </section>
       <section id="contacts-section">
         <article>
           <h2 class="section-title">
             Як нас <span class="accent">знайти</span>
+            <p class="contacts-text">
+              Запишіться <span class="brand">безкоштовно</span> та отримайте
+              подарунок
+            </p>
           </h2>
         </article>
         <iframe
@@ -148,12 +148,21 @@
       </nav>
       <address>
         <ul>
-          <li><a href="tel:+380960000007">+ 38 (096) 000 00 07 </a></li>
           <li>
-            <a href="mailto:beautyzone@gmail.com">beautyzone@gmail.com </a>
+            <a class="address-link" href="tel:+380960000007"
+              >+ 38 (096) 000 00 07
+            </a>
           </li>
           <li>
-            <a href="https://maps.app.goo.gl/xqURyBp9Ejh7N3R17" target="_blank"
+            <a class="address-link" href="mailto:beautyzone@gmail.com"
+              >beautyzone@gmail.com
+            </a>
+          </li>
+          <li>
+            <a
+              class="address-link"
+              href="https://maps.app.goo.gl/xqURyBp9Ejh7N3R17"
+              target="_blank"
               >Україна, м. Київ, вул. Тараса Шевченка 5
             </a>
           </li>
@@ -170,8 +179,10 @@
           </li>
           <li><a href="#"> </a></li>
         </ul>
-        <a href="#" target="_blank">Політика конфіденційності</a>
-        <p>&copy; 2022 Дані захищені</p>
+        <a class="address-link" href="#" target="_blank"
+          >Політика конфіденційності</a
+        >
+        <p class="address-copyright">&copy; 2022 Дані захищені</p>
       </address>
     </footer>
   </body>
