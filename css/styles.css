@@ -139,6 +139,20 @@ line-height: 1.17;
 }
 
 /* Footer */
+.footer {
+    color: var(--color-primary-light);
+    background-color: var(--color-brand-dark);
+}
+
+.link-color {
+    color: var(--color-primary-light);
+}
+
+    .link-color:hover {
+            color: var(--color-brand-light);
+            font-weight: 400;
+}
+
 .address-link {
     color: var(--color-primary-light);
     font-size: 16px;
@@ -154,3 +168,4 @@ line-height: 1.17;
     font-size: 13px;
     line-height: 1.17;
 }
+
